@@ -19,16 +19,14 @@ int main(){
     cin >> s;
     sort(s.begin(), s.end());
     vector<string> v;
-    
-    do
+    do {
         v.push_back(s);
+    }
     while(next_permutation(s.begin(), s.end()));
-    
     cout << v.size() << endl;
-    
-    for(auto s:v) 
+    for(auto s:v){ 
         cout << s << endl;
-        
+    }   
     return 0;
 }
 ```
