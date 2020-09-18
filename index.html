@@ -1,0 +1,76 @@
+<!doctype html>
+<htlml lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>CV</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="bg-color">
+                <img class="avatar" src="ava.jpg" alt="Portrait" width="256px">
+                <h1 class="name">Darkhan Sartayev</h1>
+                <h2 class="description">The Rollong Scopes School student</h2>
+            </div>
+        </header>
+        <section class="screen">
+            <section class="content left-side">
+                <div class="info contacts">
+                    <h3 class="item-title">&ensp;Contacts</h3>
+                    <ul>
+                        <li><span>Email:</span> sartayevdarkhan@gmail.com</li>
+                        <li><span>Telegram:</span> https://t.me/DrkhnS</li>
+                    </ul>
+                </div>
+                <div class="info skills">
+                    <h3 class="item-title">&ensp;Skills</h3>
+                    <p>Problem solving using C++, Python, JavaScript</p>
+
+                </div>
+                <div class="info education">
+                    <h3 class="item-title">&ensp;Education</h3>
+                    <p>Bachelor's Degree in Informatics</p>
+
+                </div>
+            </section>
+
+            <section class="content right-side">
+                <div class="info summary">
+                    <h3 class="item-title">&ensp;Summary</h3>
+                    <p>My current goal is to become web developer. I study with passion and I'd be very excited to complete JavaScript/Front-end course from RS School.</p>
+                </div>
+                <div class="info code-example">
+                    <h3 class="item-title">&ensp;Code examples</h3>
+                    <pre>
+          <code>
+            #include<bits/stdc++.h>
+            using namespace std;
+            int main(){
+                string s;
+                cin >> s;
+                sort(s.begin(), s.end());
+                vector<string> v;
+                do {
+                    v.push_back(s);
+                }
+                while(next_permutation(s.begin(), s.end()));
+                cout << v.size() << endl;
+                for(auto s:v){ 
+                    cout << s << endl;
+                }   
+                return 0;
+            }
+          </code>
+        </pre>
+                </div>
+                <div class="info english">
+                    <h3 class="item-title">&ensp;English</h3>
+                    <p>My English level is Uppre-Intermediate. I study Informatics at University in English language.</p>
+                </div>
+            </section>
+        </section>
+    </body>
+
+</htlml>
